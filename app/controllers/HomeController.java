@@ -28,7 +28,7 @@ public class HomeController extends Controller {
     	Test t=new Test();
     	
     	t.setId(1);
-    t.setName("saumya");
+    t.setName("saumya123");
     return ok(Json.toJson(t));
         
     }
